@@ -34,7 +34,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH ='C:/Users/WIN/Downloads/Cotton-Disease-Prediction-Deep-Learning-master/Transfer Learning Inspection V3.ipynb'
+MODEL_PATH ='C:/Users/WIN/Downloads/Cotton-Disease-Prediction-Deep-Learning-master/model_inception.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
